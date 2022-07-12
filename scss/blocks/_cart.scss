@@ -1,0 +1,315 @@
+.cart__bkg {
+    background-color: $pink-bkg;
+    min-height: 148px;
+    display: flex;
+    display: column;
+
+    &-title {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+        color: $price-color;
+        padding-left: 230px;
+        padding-top: 59px;
+        text-transform: uppercase;
+    }
+}
+
+.cart {
+    margin-top: 96px;
+
+    &__container {
+        margin-bottom: 128px;
+    }
+    
+    &__container-form {
+        display: flex;
+    }
+    
+    &__item {
+        padding-bottom: 40px;
+        display: flex;
+        width: 652px;
+        height: 306px;
+    }
+
+    &__item-wrp {
+        display: flex;
+        flex-direction: column;
+        margin-left: 31px;
+        padding-top: 22px;
+    }
+    
+    &__item-title {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+        text-transform: uppercase;
+        padding-bottom: 42px;
+    }
+    
+    &__item-text {
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 26px;
+        color: #575757;
+        padding-bottom: 6px;
+    }
+
+    &__input-wrp {
+        display: flex;
+    }
+    
+    
+    &__item-input {
+        margin-left: 25px;
+    }
+    
+    &__price {
+        color: $price-color;
+        padding-left: 5px;
+    }
+    
+    &__info {
+        padding-left: 5px;
+    }
+    
+    &__item-input {
+        height: 15px;
+        width: 20px;
+        border: 1px solid #EAEAEA;
+        width: 43px;
+        height: 24px;
+        text-align: center;
+    }
+    
+    &__item-btn {
+        text-transform: uppercase;
+        margin-top: 32px;
+        width: 224px;
+        height: 49px;
+        text-align: center;
+        background-color: white;
+        border: 1px solid #A4A4A4;
+    }
+
+    &__marg-btn {
+        margin-right: 193px;
+    }
+    
+    &__item-btn:hover,
+    &__item-btn:focus {
+        background-color: $button-color;
+        color: white;
+        border: 1px solid $button-color;
+        cursor: pointer;
+    }
+
+    &__form-title {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+        text-transform: uppercase;
+        margin-bottom: 21px;
+        padding-top: 22px;
+    }
+
+    &__form-input {
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 16px;
+        padding-left: 17px;
+        border: 1px solid #A4A4A4;
+        height: 45px;
+        width: 359px;
+        margin-bottom: 21px;
+    }
+
+    &__form-btn {
+        height: 34px;
+        width: 100px;
+        text-transform: uppercase;
+        font-weight: 300;
+        font-size: 11px;
+        line-height: 13px;
+        color: #4A4A4A;
+        border: 1px solid #A4A4A4;
+        background-color: white;
+    }
+
+    &__form-btn:hover,
+    &__form-btn:focus {
+        background-color: $button-color;
+        color: white;
+        border: 1px solid $button-color;
+        cursor: pointer;
+    }
+
+    &__check {
+        margin-top: 57px;
+        height: 214px;
+        width: 360px;
+        background: #F5F3F3;
+    }
+
+    &__check-text {
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 13px;
+        color: #4A4A4A;
+        display: flex;
+        justify-content: right;
+        padding-top: 39px;
+        padding-right: 34px;
+    }
+
+    &__check-title {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+        color: #222222;
+        display: flex;
+        justify-content: right;
+        padding-top: 12px;
+        padding-right: 37px;
+        margin-bottom: 42px;
+    }
+
+    &__check-btn {
+        width: 273px;
+        height: 50px;
+        background-color: $button-color;
+        border: 1px solid $button-color;
+        color: white;
+        text-transform: uppercase;
+        margin: 0 43px 42px 44px;
+    }
+
+    &__span {
+        padding-left: 25px; 
+    }
+
+    &__check-title::after {
+        content: "";
+        position: absolute;
+        background-image: url(../img/cart-decor.svg);
+        height: 1px;
+        width: 275px;
+        margin-top: 40px;
+    }
+
+    &__check-btn:hover,
+    &__check-btn:focus {
+        background-color: #ec3e56;
+        cursor: pointer;
+    }
+}
+
+
+
+
+
+
+// .cart__bkg {
+//     background-color: $pink-bkg;
+//     min-height: 148px;
+//     display: flex;
+//     display: column;
+// }
+
+// .cart__bkg-title {
+//     font-weight: 400;
+//     font-size: 24px;
+//     line-height: 29px;
+//     color: $price-color;
+//     padding-left: 230px;
+//     padding-top: 59px;
+//     text-transform: uppercase;
+// }
+
+// .cart {
+//     margin-top: 96px;
+// }
+
+// .cart__container {
+//     margin-bottom: 128px;
+// }
+
+// .cart__container-form {
+//     display: flex;
+// }
+
+// .cart__item {
+//     padding-top: 40px;
+//     display: flex;
+//     width: 652px;
+//     height: 306px;
+// }
+
+// .cart__item-wrp {
+//     display: flex;
+//     flex-direction: column;
+//     margin-left: 31px;
+//     padding-top: 22px;
+// }
+
+// .cart__item-title {
+//     font-weight: 400;
+//     font-size: 24px;
+//     line-height: 29px;
+//     text-transform: uppercase;
+//     padding-bottom: 42px;
+// }
+
+// .cart__item-text {
+//     font-weight: 400;
+//     font-size: 22px;
+//     line-height: 26px;
+//     color: #575757;
+//     padding-bottom: 6px;
+// }
+
+// .cart__input-wrp {
+//     display: flex;
+// }
+
+
+// .cart__item-input {
+//     margin-left: 25px;
+// }
+
+// .cart__price {
+//     color: $price-color;
+// }
+
+// .cart__info {
+//     padding-left: 5px;
+// }
+
+// .cart__item-input {
+//     height: 15px;
+//     width: 20px;
+//     border: 1px solid #EAEAEA;
+//     width: 43px;
+//     height: 24px;
+//     text-align: center;
+// }
+
+// .cart__item-btn {
+//     text-transform: uppercase;
+//     margin-top: 72px;
+//     margin-right: 192px;
+//     width: 234px;
+//     height: 49px;
+//     text-align: center;
+//     background-color: white;
+//     border: 1px solid #A4A4A4;
+// }
+
+// .cart__item-btn:hover,
+// .cart__item-btn:focus {
+//     background-color: $button-color;
+//     color: white;
+//     border: 1px solid $button-color;
+//     cursor: pointer;
+// }

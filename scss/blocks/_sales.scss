@@ -1,0 +1,85 @@
+.sales__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.sales__item {
+    height: 260px;
+    width: 360px;
+    background-color: $sales-bkg;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sales__item-text {
+    text-align: center;
+    padding-top: 105px;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.sales__item-title {
+    text-align: center;
+    color: $pink-color;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    text-transform: uppercase;
+}
+
+.sales__item--women {
+    background-image: url(../img/person1.jpg);
+}
+
+.sales__item--men {
+    background-image: url(../img/person2.jpg);
+}
+
+.sales__item---kids {
+    background-image: url(../img/person3.jpg);
+}
+
+.sales__item--shoes {
+    background-image: url(../img/person4.jpg);
+    height: 180px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+@media (max-width: $desktop-width) {
+    .sales__item {
+        height: 167px;
+        width: 33%;
+        height: 260px;
+    }
+
+    .sales__item-text {
+        padding-top: 0;
+    }
+
+    .sales__item--shoes {
+        height: 117px;
+        width: 100%;
+        text-align: center;
+        height: 180px;
+    }
+}
+
+@media (max-width: $tablet-width) {
+    .sales__item {
+        height: 247px;
+        width: 100%;
+    }
+
+    .sales__item--shoes {
+        height: 111px;
+    }
+}

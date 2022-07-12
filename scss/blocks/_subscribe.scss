@@ -1,0 +1,17 @@
+.subscribe__btn {
+    background-color: $button-color;
+    padding: 7px 7px 7px 7px;
+    height: 44px;
+    width: 100px;
+    color: white;
+    border: $button-color;
+    margin-left: -34px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    cursor: pointer;
+}
+
+.subscribe__btn:hover,
+.subscribe__btn:focus {
+    background-color: #ec3e56;
+}

@@ -1,0 +1,12 @@
+.bases {
+    fill: white;
+}
+
+.bases:hover,
+.bases:focus {
+    fill: $button-color;
+    cursor: pointer;
+}
+.bases:active {
+    opacity: 0.7;
+}

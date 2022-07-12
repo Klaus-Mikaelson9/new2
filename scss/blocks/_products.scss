@@ -1,0 +1,107 @@
+.products__title {
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    margin-top: 96px;
+}
+
+.products__sub-title {
+    color: $products-color;
+    text-align: center;
+    padding-top: 6px;
+    margin-bottom: 48px;
+}
+
+.products__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 49px;
+}
+
+.products__item {
+    padding-bottom: 30px;
+    width: 360px;
+}
+
+.products__item-img-wrp {
+    position: relative;
+}
+
+.products__item-add-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    display: none;
+    background-color: #4E4544;
+    border-color: white;
+    color: white;
+    width: 138px;
+    height: 43px;
+    cursor: pointer;
+    border: 1px solid #FFFFFF;
+    background-color: transparent;
+    margin-top: -23px;
+    align-items: center;
+}
+
+// .products__item-add-btn {
+//     position: absolute;
+//     top: 50%;
+//     left: 50%;
+//     transform: translate(-50%);
+//     display: none;
+//     background-color: #4E4544;
+//     border-color: white;
+//     color: white;
+//     width: 138px;
+//     height: 43px;
+//     cursor: pointer;
+//     border: 1px solid #FFFFFF;
+//     background-color: transparent;
+//     align-items: center;
+// }
+
+.products__item-title {
+    text-transform: uppercase;
+    font-size: 13px;
+    line-height: 16px;
+    padding-bottom: 13px;
+    padding-top: 25px;
+}
+
+.products__item-text {
+    font-weight: 300;
+    width: 314px;
+    color: $text-color;
+}
+
+.products__item-price {
+    padding-top: 18px;
+    color: $price-color;
+}
+
+.products__item-img-wrp::before {
+    content: '';
+    background-color: #222222;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    opacity: 0.6;
+    display: none;
+}
+
+.products__item:hover .products__item-img-wrp::before,
+.products__item:hover .products__item-add-btn {
+    display: block;
+    display: flex;
+    box-shadow: 21px 23px 15px -12px #000000;
+}
+
+.products__item-add-btn:hover,
+.products__item-add-btn:focus {
+    opacity: 0.6;
+}

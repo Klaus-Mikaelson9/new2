@@ -1,0 +1,138 @@
+// десктоп
+
+.header {
+    background-color: $black-bkg;
+
+    &__wrp {
+        display: flex;
+        align-items: center;
+        min-height: 75px;
+        justify-content: space-between;
+    }
+
+    &__container-wrp {
+        display: flex;
+    }
+    
+    &__logo {
+        margin: 0 41px 0 0;
+    }
+
+    &__menu-list {
+        display: flex;
+        align-items: center;
+        list-style: none;
+    }
+
+    &_menu-burger {
+        display: flex;
+        justify-content: flex-end;
+        position: relative;
+        outline: none;
+        border: none;
+        background-color: transparent;
+    }
+
+    &__burger {
+        border: none;
+        background-color: transparent;
+        padding-right: 33px;
+    }
+
+    &__basket-icon {
+        padding-left: 33px;
+    }
+    
+    &__nav {
+        position: absolute;
+        top: 52px;
+        left: 128px;
+        background: white;
+        display: none;
+        width: 232px;
+        height: 764px;
+        box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+
+        &-exit {
+            padding-top: 16px;
+            height: 12px;
+            width: 12px;
+        }
+    }
+
+    &__nav:active {
+        display: block;
+    }
+      
+    &__burger:active + &__nav,
+    &__burger:focus + &__nav {
+        display: block;
+    }
+    
+    &_link {
+        margin: 0 0 0 33px;
+    }
+    
+    &__nav-title {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+        text-transform: uppercase;
+        padding-top: 9px;
+        padding-left: 33px;
+    }
+    
+    &__nav-list {
+        margin: 0;
+        padding: 0;
+    }
+
+    &__search-icon:hover>&__search-input {
+        width: 240px;
+    }
+    
+    &__search-icon:hover>&__search-button {
+        background: #222;
+        color: #222;
+    }
+    
+    &__search-button {
+        float: right;
+        width: 40px;
+        height: 40px;
+        border: none;
+        border-radius: 50%;
+        background: #222;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.4s;
+        margin-top: 10px;
+    }
+    
+    &__search-input {
+        border: none;
+        background: none;
+        outline: none;
+        float: left;
+        padding: 0;
+        color: #fff;
+        font-size: 16px;
+        transition: 0.4s;
+        line-height: 40px;
+        width: 0;
+        margin-top: 10px;
+    }
+}
+
+// мобилка
+
+@media (max-width: $mobile-width) {
+    .header {
+        width: 92%;
+        
+        &__link {
+            display: none;
+        }
+    }
+}
