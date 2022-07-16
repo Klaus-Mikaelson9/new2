@@ -33,4 +33,5 @@
 .button:focus {
     background-color: $button-color;
     color: white;
+    transition-duration: .8s;
 }

@@ -100,4 +100,5 @@
 .footer__item-ref:focus {
     background-color: $button-color;
     fill: white;
+    transition-duration: .6s;
 }

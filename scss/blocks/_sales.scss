@@ -54,32 +54,32 @@
     margin-top: 30px;
 }
 
-@media (max-width: $desktop-width) {
-    .sales__item {
-        height: 167px;
-        width: 33%;
-        height: 260px;
-    }
+// @media (max-width: $desktop-width) {
+//     .sales__item {
+//         height: 167px;
+//         width: 33%;
+//         height: 260px;
+//     }
 
-    .sales__item-text {
-        padding-top: 0;
-    }
+//     .sales__item-text {
+//         padding-top: 0;
+//     }
 
-    .sales__item--shoes {
-        height: 117px;
-        width: 100%;
-        text-align: center;
-        height: 180px;
-    }
-}
+//     .sales__item--shoes {
+//         height: 117px;
+//         width: 100%;
+//         text-align: center;
+//         height: 180px;
+//     }
+// }
 
-@media (max-width: $tablet-width) {
-    .sales__item {
-        height: 247px;
-        width: 100%;
-    }
+// @media (max-width: $tablet-width) {
+//     .sales__item {
+//         height: 247px;
+//         width: 100%;
+//     }
 
-    .sales__item--shoes {
-        height: 111px;
-    }
-}
+//     .sales__item--shoes {
+//         height: 111px;
+//     }
+// }
